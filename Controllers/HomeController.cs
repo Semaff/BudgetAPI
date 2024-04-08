@@ -1,8 +1,8 @@
-using ElectricalAPI.Models;
+using BudgetAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace ElectricalAPI.Controllers
+namespace BudgetAPI.Controllers
 {
     public class HomeController : Controller
     {

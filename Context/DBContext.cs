@@ -1,12 +1,13 @@
-﻿using ElectricalAPI.Models;
+﻿using BudgetAPI.Models;
 using Microsoft.EntityFrameworkCore;
-namespace ElectricalAPI.Context
+namespace BudgetAPI.Context
 {
     public class DBContext : DbContext
     {
-        public DbSet<EFProject> Projects { get; set; }
-        public DbSet<EFClient> Clients { get; set; }
-        public DbSet<EFWorker> Workers { get; set; }
+        public DbSet<EFCategory> Categories { get; set; }
+        public DbSet<EFUser> Users { get; set; }
+        public DbSet<EFTransaction> Transactions { get; set; }
+        public DbSet<EFBudget> Budgets { get; set; }
         public DBContext(string cnnString)
         {
             ConnectionString = cnnString;

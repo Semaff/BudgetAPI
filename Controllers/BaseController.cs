@@ -1,8 +1,8 @@
-﻿using ElectricalAPI.Context;
+﻿using BudgetAPI.Context;
 using Microsoft.AspNetCore.Mvc;
 using System.Dynamic;
 
-namespace ElectricalAPI.Controllers
+namespace BudgetAPI.Controllers
 {
     public class BaseController: Controller
     {

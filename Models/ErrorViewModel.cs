@@ -1,4 +1,4 @@
-namespace ElectricalAPI.Models
+namespace BudgetAPI.Models
 {
     public class ErrorViewModel
     {

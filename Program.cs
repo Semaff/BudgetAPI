@@ -1,4 +1,4 @@
-using ElectricalAPI.Context;
+using BudgetAPI.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
